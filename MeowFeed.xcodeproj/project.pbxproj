@@ -71,8 +71,7 @@
 		1A3D0AAA29357CB800889341 /* MeowFeed */ = {
 			isa = PBXGroup;
 			children = (
-				1A3D0AC029357CD600889341 /* FeedItem.swift */,
-				1A3D0AC229357DF400889341 /* FeedLoader.swift */,
+				1A3D0AC429357E9600889341 /* Feed Feature */,
 			);
 			path = MeowFeed;
 			sourceTree = "<group>";
@@ -83,6 +82,15 @@
 				1A3D0AB529357CB800889341 /* MeowFeedTests.swift */,
 			);
 			path = MeowFeedTests;
+			sourceTree = "<group>";
+		};
+		1A3D0AC429357E9600889341 /* Feed Feature */ = {
+			isa = PBXGroup;
+			children = (
+				1A3D0AC029357CD600889341 /* FeedItem.swift */,
+				1A3D0AC229357DF400889341 /* FeedLoader.swift */,
+			);
+			path = "Feed Feature";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
