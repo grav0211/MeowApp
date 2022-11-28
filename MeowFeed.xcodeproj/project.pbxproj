@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1A3D0AB129357CB800889341 /* MeowFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D0AA829357CB800889341 /* MeowFeed.framework */; };
 		1A3D0AB629357CB800889341 /* MeowFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0AB529357CB800889341 /* MeowFeedTests.swift */; };
-		1A3D0AB729357CB800889341 /* MeowFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3D0AAB29357CB800889341 /* MeowFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		1A3D0AA829357CB800889341 /* MeowFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeowFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A3D0AAB29357CB800889341 /* MeowFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeowFeed.h; sourceTree = "<group>"; };
 		1A3D0AB029357CB800889341 /* MeowFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3D0AB529357CB800889341 /* MeowFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowFeedTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 		1A3D0AAA29357CB800889341 /* MeowFeed */ = {
 			isa = PBXGroup;
 			children = (
-				1A3D0AAB29357CB800889341 /* MeowFeed.h */,
 			);
 			path = MeowFeed;
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3D0AB729357CB800889341 /* MeowFeed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +140,7 @@
 				TargetAttributes = {
 					1A3D0AA729357CB800889341 = {
 						CreatedOnToolsVersion = 13.4;
+						LastSwiftMigration = 1340;
 					};
 					1A3D0AAF29357CB800889341 = {
 						CreatedOnToolsVersion = 13.4;
@@ -335,6 +332,7 @@
 		1A3D0ABB29357CB800889341 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -356,6 +354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -363,6 +362,7 @@
 		1A3D0ABC29357CB800889341 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -391,6 +391,7 @@
 		1A3D0ABE29357CB800889341 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J85VPLXM2C;
@@ -406,6 +407,7 @@
 		1A3D0ABF29357CB800889341 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J85VPLXM2C;

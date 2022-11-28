@@ -6,7 +6,6 @@
 //
 
 import XCTest
-@testable import MeowFeed
 
 class MeowFeedTests: XCTestCase {
 
