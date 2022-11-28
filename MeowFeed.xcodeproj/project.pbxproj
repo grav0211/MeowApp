@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1A3D0AB129357CB800889341 /* MeowFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3D0AA829357CB800889341 /* MeowFeed.framework */; };
 		1A3D0AB629357CB800889341 /* MeowFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0AB529357CB800889341 /* MeowFeedTests.swift */; };
+		1A3D0AC129357CD600889341 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3D0AC029357CD600889341 /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,7 @@
 		1A3D0AA829357CB800889341 /* MeowFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeowFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3D0AB029357CB800889341 /* MeowFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeowFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3D0AB529357CB800889341 /* MeowFeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeowFeedTests.swift; sourceTree = "<group>"; };
+		1A3D0AC029357CD600889341 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		1A3D0AAA29357CB800889341 /* MeowFeed */ = {
 			isa = PBXGroup;
 			children = (
+				1A3D0AC029357CD600889341 /* FeedItem.swift */,
 			);
 			path = MeowFeed;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3D0AC129357CD600889341 /* FeedItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
